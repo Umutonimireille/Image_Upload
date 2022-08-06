@@ -3,16 +3,13 @@ const app = express()
 const bodyParser = require ('body-parser')
 const mongoose = require ('mongoose')
 const fs = require ('fs')
-const port = 2500;
+const port = 3500;
 const path = require ('path')
 const Photo = require ('./model')
 // const cloudinary = require('cloudinary')
 const dotenv = require('dotenv')
 const cloudinary = require ('./utils/cloudinary.js')
-// const router = express.Router();
-//   const myCss = {
-//     style : fs.readFileSync('./index.css','utf8')
-// };
+
 
 // cloudinary.config({
 //     cloud_name:"dok0zmz2e",
